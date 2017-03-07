@@ -1,2 +1,0 @@
-# Earthworm
-蚯蚓
