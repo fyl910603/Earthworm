@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//cdn.bootcss.com/sweetalert/1.1.3/sweetalert.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/CSS.css" />
+    <title></title>
+    <style>
+    
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <nav class="nav navbar navbar-default navbar-fixed-top back" role="navigation">
+        <div class="navbar-header">
+            <div class="row">
+                <div class="col-xs-4 col-sm-1 pull-right">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+                        <span class="sr-only">切换导航</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="col-xs-4 col-sm-7 pull-left">
+                    <a id="back"class="navbar-brand " href="#" style="color:#FFFFFF;"><span class="glyphicon glyphicon-menu-left" style="position:relative;top:2px;"></span>返回</a>
+                </div>
+                <div class="col-xs-4 col-sm-4">
+                    <h4 class="verti">首页</h4>
+                </div>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse" id="example-navbar-collapse"style="background-color: white;">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="zhongxin.html">个人中心</a>
+                </li>
+                <li>
+                    <a href="order.html">我的订单</a>
+                </li>
+                <li>
+                    <a href="fanhuan.html">返款记录</a>
+                </li>
+                <li>
+                    <a href="huishou.html">回收记录</a>
+                </li>
+                <li>
+                    <a href="bangding.html">绑定设备</a>
+                </li>               
+            </ul>
+        </div>
+    </nav>
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <div><img src="img/adPic1.png" class="img-response"alt="..."></div>
+                
+            </div>
+            <div class="item">
+                <div><img src="img/hotPic4.png" alt="..."></div>
+                
+            </div>
+            <div class="item">
+                <div><img src="img/hotPic3.png" alt="..."></div>
+                
+            </div>
+
+        </div>
+
+        <!-- Controls -->
+        <!--<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>-->
+    </div>
+    <ul class="list-group">
+        <li class="list-group-item">
+            <div class="row">
+                <div class="col-xs-4">产品名称</div>
+                <div class="col-xs-8">蚯蚓卫士垃圾处理器</div>
+            </div>
+        </li>
+        <li class="list-group-item">
+            <div class="row">
+                <div class="col-xs-5 col-sm-4">产品价格</div>
+                <div class="col-xs-5 col-sm-7">3600/套</div>
+                <a href="price.html"><div class="col-xs-2 col-sm-1"><span class="glyphicon glyphicon-chevron-right"></span></div></a>
+            </div>
+        </li>
+        <li class="list-group-item">
+            <div class="row">
+                <div class="col-xs-4 col-sm-4">租赁价格</div>
+                <div class="col-xs-6 col-sm-7">1200元押金+180元/年使用费</div>
+                <div class="col-xs-2 col-sm-1"><span class="glyphicon glyphicon-chevron-right"></span></div>
+            </div>
+        </li>
+    </ul>
+    <div id="zulin"style="height: 60px;line-height: 60px;color: #f2f2f2"><button type="button" class="btn" data-toggle="button" style="width: 100%;height: 45px;background-color: #49CB6B">
+        <h4>租赁购买</h4>
+    </button></div>
+    <div id="quankuan"style="height: 60px;line-height: 60px;color: #f2f2f2"><button type="button" class="btn" data-toggle="button"style="width: 100%;height:45px;background-color: #F0DC2D">
+        <h4>全款购买</h4>
+    </button></div>
+</div>
+<script src="http://cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
+<script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="//cdn.bootcss.com/sweetalert/1.1.3/sweetalert.min.js"></script>
+<script src="js/model.js"></script>
+<script>
+    $('.carousel').carousel({
+        interval: 3000
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+/*个人中心样式*/
+.img-radius{
+            width: 60px;
+            height: 60px;
+            border-radius:50% ;
+        }
+.padding-left{
+            padding-left: 20px;
+        }
+.padding-top{
+            padding-top: 20px;
+        }
+.padding-top2: 10px;
+        }
+.text-align{
+            text-align: right;
+        }
+.border{
+            border-left: none;
+            border-right: none;
+        }
+.qiehuan{
+	display: none;
+}
+/*顶部导航样式*/        
+.back{
+        	background-color: #0d0d0d;
+        	color: white;
+        	
+        }  
+.verti{
+	text-align: center;
+	padding-top: 5px;
+}
+/*首页样式*/
+img[alt]{
+    	width: 100%;
+    	height: 200px;
+    }   
+    #carousel-example-generic{
+    	margin-top: 49px;
+    }     
+/*提现样式*/
+.back1{
+	background-color: #f2f2f2;
+	height: 40px;
+	line-height: 40px
+}
+input{
+	border: 0;
+    outline: none;
+	height: 65px;
+	line-height: 65px
+}
+.button{
+	width: 100%;
+	height: 45px;
+	margin-top: 20px;
+	background-color: #00cc00;
+	color: #f2f2f2;
+}   
+/*产品价格*/
+.sty{
+	margin-top: 60px;
+	height: 60px;
+	line-height: 60px;
+}    
+/*我的订单*/ 
+.media a img{
+            width: 60px;
+            height: 50px;
+        }
+.orow{
+	height: 60px;
+	padding-left: 25px;
+	padding-top: 5px
+} 
+.media-span{
+	display: inline-block;
+	width: 70%;
+	text-align: right;
+	color: red
+}
+.media-span2{
+	display: inline-block;
+	width: 70%;
+	text-align: right;
+}     
+/*垃圾信息*/    
+input,textarea,button{
+            border: 0;
+            outline: none;
+        }
+textarea { resize : none; }    
+/*垃圾回收排行*/
+.img-radius2{
+            width: 50px;
+            height: 50px;
+            border-radius:50% ;
+        }
+.padding-right{
+            padding-right: 20px;
+            color: red;
+        }   
+body{
+	background-color: gainsboro;
+}    
+.container-fluid{
+	margin-left: -20px;margin-right: -15px;
+}
+                         

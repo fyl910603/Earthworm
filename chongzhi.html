@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <title></title>
+    <style>
+    .back{
+        	background-color: #0d0d0d;
+        	color: white;
+        	
+        }  
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <nav class="nav navbar navbar-default navbar-fixed-top back" role="navigation">
+        <div class="navbar-header">
+            <div class="row">
+                <div class="col-xs-4 col-sm-1 pull-right">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+                        <span class="sr-only">切换导航</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="col-xs-4 col-sm-7 pull-left">
+                    <a class="navbar-brand" href="javascript:" onclick="self.location=document.referrer;" style="color:#FFFFFF;"><span class="glyphicon glyphicon-menu-left" style="position:relative;top:2px;"></span>返回</a>
+                </div>
+                <div class="col-xs-4 col-sm-4">
+                    <h4 style="text-align: center;padding-top: 5px">充值</h4>
+                </div>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse" id="example-navbar-collapse"style="background-color: white;">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="zhongxin.html">个人中心</a>
+                </li>
+                <li>
+                    <a href="order.html">我的订单</a>
+                </li>
+                <li>
+                    <a href="fanhuan.html">返款记录</a>
+                </li>
+                <li>
+                    <a href="huishou.html">回收记录</a>
+                </li>
+                <li>
+                    <a href="bangding.html">绑定设备</a>
+                </li>               
+            </ul>
+        </div>
+    </nav>
+    <div style="margin-top: 70px;background-color:#ffffff">
+        <div style="height: 65px;line-height: 65px">
+            <input  style="height: 45px" type="text" class="form-control" placeholder="请输入充值金额">
+        </div>
+        <div style="height: 65px;padding-bottom: 20px;color: #f2f2f2;"><button type="button" class="btn" data-toggle="button" style="width: 100%;height: 45px;background-color: #00cc00">
+            <h4>立即充值</h4>
+        </button></div>
+    </div>
+</div>
+<script src="http://cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
+<script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
